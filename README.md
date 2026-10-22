@@ -4,7 +4,7 @@
 
 A tiny macOS menu-bar app for system-wide website blocking: one list, an on/off switch, and a five-minute pause.
 
-**[Download the DMG](https://github.com/Phionx/refocus/releases)** · [Website aliases](SITE_ALIASES.md) · [Changelog](CHANGELOG.md)
+**[Download the DMG](https://github.com/Phionx/refocus/releases/download/v0.2.1/Refocus-0.2.1-macOS.dmg)** · [Website aliases](SITE_ALIASES.md) · [Changelog](CHANGELOG.md)
 
 **macOS 13+ · Apple Silicon and Intel · No accounts or browser extensions**
 
