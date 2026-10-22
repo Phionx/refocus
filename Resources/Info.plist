@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+  <key>CFBundleIdentifier</key><string>org.refocus.app</string>
+  <key>CFBundleName</key><string>Refocus</string>
+  <key>CFBundleDisplayName</key><string>Refocus</string>
+  <key>CFBundleExecutable</key><string>Refocus</string>
+  <key>CFBundleIconFile</key><string>AppIcon</string>
+  <key>CFBundlePackageType</key><string>APPL</string>
+  <key>CFBundleShortVersionString</key><string>$(REFOCUS_VERSION)</string>
+  <key>CFBundleVersion</key><string>$(REFOCUS_BUILD_NUMBER)</string>
+  <key>LSMinimumSystemVersion</key><string>13.0</string>
+  <key>LSUIElement</key><true/>
+  <key>NSHighResolutionCapable</key><true/>
+  <key>NSHumanReadableCopyright</key><string>Copyright © 2026 Refocus contributors. MIT License.</string>
+</dict></plist>

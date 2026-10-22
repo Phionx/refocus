@@ -1,0 +1,24 @@
+name: Build macOS app
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check hosts and configuration behavior
+        run: bash scripts/test.sh
+      - name: Package Apple Silicon and Intel downloads
+        run: bash scripts/package.sh
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Refocus-macOS-development
+          path: |
+            dist/Refocus-*-macOS.dmg
+            dist/Refocus-*-macOS.zip
+            dist/SHA256SUMS.txt
+          if-no-files-found: error
