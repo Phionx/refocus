@@ -1,10 +1,12 @@
 # Refocus
 
-A tiny macOS menu-bar website blocker: one list, an on/off switch, and a five-minute pause. A first line of defense against habitual browsing.
+A tiny macOS menu-bar app for system-wide website blocking: one list, an on/off switch, and a five-minute pause. A first line of defense against habitual browsing.
 
 **[Download the DMG](https://github.com/Phionx/refocus/releases)** · [Website aliases](SITE_ALIASES.md) · [Changelog](CHANGELOG.md)
 
 **macOS 13+ · Apple Silicon and Intel · No accounts or browser extensions**
+
+![Refocus blocking and unblocking a website from the macOS menu bar](docs/refocus-demo.gif)
 
 ## Install
 
@@ -21,7 +23,9 @@ The initial release is **ad-hoc signed, not notarized**. If macOS blocks opening
 
 Add domains or paste URLs, then use the switch to block/unblock. **Pause 5 min** temporarily lifts blocking; **Resume now** restores it early. Your list stays saved when you quit; reopening starts off.
 
-**Fully quit and reopen your browser to apply changes immediately, or wait a bit for them to take effect.** Cached connections, VPNs, and private resolvers can bypass this lightweight barrier. Messenger's shared fallback servers can also affect Facebook features. See [aliases and limits](docs/site-aliases.md).
+**Fully quit and reopen your browser to apply changes immediately, or wait a bit for them to take effect.** Cached connections, VPNs, and private resolvers can bypass this lightweight barrier.
+
+Some websites use aliases. Refocus includes [known aliases](SITE_ALIASES.md), and anyone can contribute to the list.
 
 ## Update
 
