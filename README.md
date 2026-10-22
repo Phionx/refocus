@@ -1,6 +1,8 @@
 # Refocus
 
-A tiny macOS menu-bar app for system-wide website blocking: one list, an on/off switch, and a five-minute pause. A first line of defense against habitual browsing.
+**First line of defense against doomscrolling.**
+
+A tiny macOS menu-bar app for system-wide website blocking: one list, an on/off switch, and a five-minute pause.
 
 **[Download the DMG](https://github.com/Phionx/refocus/releases)** · [Website aliases](SITE_ALIASES.md) · [Changelog](CHANGELOG.md)
 

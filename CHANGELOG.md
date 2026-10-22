@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.1 — 2026-10-22
+
+- Use “First line of defense against doomscrolling.” as the app and README tagline.
+
 ## 0.2.0 — 2026-10-21
 
 - Add a universal macOS DMG with an Applications shortcut, versioned ZIP, and checksums.

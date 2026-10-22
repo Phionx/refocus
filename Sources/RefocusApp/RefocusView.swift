@@ -107,7 +107,8 @@ import SwiftUI
 
             Divider()
             HStack {
-                Text("A little space before the scroll.").font(.caption).foregroundStyle(.secondary)
+                Text("First line of defense against doomscrolling.").font(.caption).foregroundStyle(.secondary)
+                    .fixedSize(horizontal: false, vertical: true)
                 Spacer(minLength: 8)
                 Button(model.isPaused ? "Resume now" : "Pause 5 min") { model.togglePause() }
                     .disabled(!model.helperReady || !model.configuration.enabled || model.busy)
